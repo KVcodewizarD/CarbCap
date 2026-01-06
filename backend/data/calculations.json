@@ -1,0 +1,431 @@
+[
+  {
+    "id": "3577feb6-8ce6-4ace-a48b-04fdd7f8251e",
+    "type": "business",
+    "inputData": {
+      "electricity": {
+        "monthlyKWh": "10000"
+      },
+      "machinery": [],
+      "fleet": [],
+      "waste": {
+        "monthlyKg": ""
+      }
+    },
+    "result": {
+      "totalEmissions": 60,
+      "breakdown": {
+        "electricity": 60,
+        "machinery": 0,
+        "fleet": 0,
+        "industrialWaste": 0
+      },
+      "unit": "tCO2e"
+    },
+    "timestamp": "2025-11-07T08:43:37.935Z",
+    "dateCreated": "7/11/2025, 2:13:37 pm"
+  },
+  {
+    "id": "cc0f88ee-155a-420d-aac4-5aa01c253a76",
+    "type": "individual",
+    "inputData": {
+      "electricity": {
+        "monthlyKWh": "500"
+      },
+      "naturalGas": {
+        "monthlyCubicMeters": "79"
+      },
+      "vehicles": [
+        {
+          "fuelType": "petrol",
+          "annualKm": "5000",
+          "fuelConsumption": "9.8"
+        }
+      ],
+      "publicTransport": {
+        "monthlyKm": ""
+      },
+      "flights": {
+        "domesticKm": "",
+        "internationalKm": ""
+      },
+      "waste": {
+        "monthlyLandfill": "10",
+        "monthlyRecycled": "-2",
+        "monthlyComposted": "-3"
+      },
+      "food": {
+        "weeklyMeat": "",
+        "weeklyDairy": "2",
+        "weeklyVegetables": "5",
+        "weeklyGrains": "3"
+      },
+      "water": {
+        "monthlyM3": "20"
+      }
+    },
+    "result": {
+      "totalEmissions": 6.57,
+      "breakdown": {
+        "electricity": 3,
+        "naturalGas": 1.92444,
+        "transportation": 1.1319000000000001,
+        "waste": 0.055920000000000004,
+        "food": 0.3744,
+        "water": 0.08256
+      },
+      "unit": "tCO2e"
+    },
+    "timestamp": "2025-11-24T15:37:16.095Z",
+    "dateCreated": "24/11/2025, 9:07:16 pm"
+  },
+  {
+    "id": "a8ae8247-96ce-4cc4-b71d-621d23606669",
+    "type": "business",
+    "inputData": {
+      "electricity": {
+        "monthlyKWh": "10000"
+      },
+      "machinery": [
+        {
+          "name": "cnc machine",
+          "type": "heavy",
+          "powerKW": "60",
+          "hoursPerDay": "4",
+          "daysPerYear": "250"
+        }
+      ],
+      "fleet": [
+        {
+          "name": "truck ",
+          "vehicleType": "heavyVehicle",
+          "annualKm": "30000",
+          "fuelConsumption": "10"
+        }
+      ],
+      "waste": {
+        "monthlyKg": "600"
+      }
+    },
+    "result": {
+      "totalEmissions": 122.64,
+      "breakdown": {
+        "electricity": 60,
+        "machinery": 48,
+        "fleet": 9.6,
+        "industrialWaste": 5.04
+      },
+      "unit": "tCO2e"
+    },
+    "timestamp": "2025-11-24T15:39:55.353Z",
+    "dateCreated": "24/11/2025, 9:09:55 pm"
+  },
+  {
+    "id": "d37f2986-501c-444e-b798-33f61f571564",
+    "type": "individual",
+    "inputData": {
+      "electricity": {
+        "monthlyKWh": "397"
+      },
+      "naturalGas": {
+        "monthlyCubicMeters": "46"
+      },
+      "vehicles": [
+        {
+          "fuelType": "petrol",
+          "annualKm": "5000",
+          "fuelConsumption": "11.5"
+        }
+      ],
+      "publicTransport": {
+        "monthlyKm": "50"
+      },
+      "flights": {
+        "domesticKm": "",
+        "internationalKm": ""
+      },
+      "waste": {
+        "monthlyLandfill": "5",
+        "monthlyRecycled": "20",
+        "monthlyComposted": "5"
+      },
+      "food": {
+        "weeklyMeat": "2",
+        "weeklyDairy": "4",
+        "weeklyVegetables": "5",
+        "weeklyGrains": "4"
+      },
+      "water": {
+        "monthlyM3": "12"
+      }
+    },
+    "result": {
+      "totalEmissions": 6.22,
+      "breakdown": {
+        "electricity": 2.382,
+        "naturalGas": 1.12056,
+        "transportation": 1.38165,
+        "waste": 0.040799999999999996,
+        "food": 1.2443600000000001,
+        "water": 0.049536
+      },
+      "unit": "tCO2e"
+    },
+    "timestamp": "2025-11-24T15:55:25.732Z",
+    "dateCreated": "24/11/2025, 9:25:25 pm"
+  },
+  {
+    "id": "f6cb19dd-9cee-44ec-ba05-818bfc2571ff",
+    "type": "business",
+    "inputData": {
+      "electricity": {
+        "monthlyKWh": "10000"
+      },
+      "machinery": [
+        {
+          "name": "CNC machine",
+          "type": "heavy",
+          "powerKW": "50",
+          "hoursPerDay": "5",
+          "daysPerYear": "250"
+        }
+      ],
+      "fleet": [
+        {
+          "name": "truck",
+          "vehicleType": "heavyVehicle",
+          "annualKm": "20000",
+          "fuelConsumption": "10"
+        }
+      ],
+      "waste": {
+        "monthlyKg": "600"
+      }
+    },
+    "result": {
+      "totalEmissions": 121.44,
+      "breakdown": {
+        "electricity": 60,
+        "machinery": 50,
+        "fleet": 6.4,
+        "industrialWaste": 5.04
+      },
+      "unit": "tCO2e"
+    },
+    "timestamp": "2025-11-24T15:56:50.977Z",
+    "dateCreated": "24/11/2025, 9:26:50 pm"
+  },
+  {
+    "id": "277f0d34-fcc7-4c5b-a586-4b6881152f99",
+    "type": "individual",
+    "inputData": {
+      "electricity": {
+        "monthlyKWh": "5"
+      },
+      "naturalGas": {
+        "monthlyCubicMeters": "50"
+      },
+      "vehicles": [
+        {
+          "fuelType": "diesel",
+          "annualKm": "5000",
+          "fuelConsumption": "10"
+        }
+      ],
+      "publicTransport": {
+        "monthlyKm": "50"
+      },
+      "flights": {
+        "domesticKm": "",
+        "internationalKm": ""
+      },
+      "waste": {
+        "monthlyLandfill": "10",
+        "monthlyRecycled": "0",
+        "monthlyComposted": "0"
+      },
+      "food": {
+        "weeklyMeat": "1",
+        "weeklyDairy": "4",
+        "weeklyVegetables": "5",
+        "weeklyGrains": "3"
+      },
+      "water": {
+        "monthlyM3": "20"
+      }
+    },
+    "result": {
+      "totalEmissions": 3.64,
+      "breakdown": {
+        "electricity": 0.03,
+        "naturalGas": 1.2179999999999997,
+        "transportation": 1.3934000000000002,
+        "waste": 0.06,
+        "food": 0.8606,
+        "water": 0.08256
+      },
+      "unit": "tCO2e"
+    },
+    "timestamp": "2025-11-27T04:03:32.489Z",
+    "dateCreated": "27/11/2025, 9:33:32 am"
+  },
+  {
+    "id": "8bba507a-2565-47e6-afd6-9e1c5a65383c",
+    "type": "business",
+    "inputData": {
+      "electricity": {
+        "monthlyKWh": "1000"
+      },
+      "machinery": [
+        {
+          "name": "",
+          "type": "light",
+          "powerKW": "",
+          "hoursPerDay": "",
+          "daysPerYear": "250"
+        }
+      ],
+      "fleet": [
+        {
+          "name": "",
+          "vehicleType": "lightVehicle",
+          "annualKm": "",
+          "fuelConsumption": "10"
+        }
+      ],
+      "waste": {
+        "monthlyKg": ""
+      }
+    },
+    "result": {
+      "totalEmissions": 6,
+      "breakdown": {
+        "electricity": 6,
+        "machinery": 0,
+        "fleet": 0,
+        "industrialWaste": 0
+      },
+      "unit": "tCO2e"
+    },
+    "timestamp": "2025-11-27T04:08:53.952Z",
+    "dateCreated": "27/11/2025, 9:38:53 am"
+  },
+  {
+    "id": "34a5b7f6-d693-4750-9983-751f792059d5",
+    "type": "individual",
+    "inputData": {
+      "electricity": {
+        "monthlyKWh": "100"
+      },
+      "naturalGas": {
+        "monthlyCubicMeters": "50"
+      },
+      "vehicles": [
+        {
+          "fuelType": "petrol",
+          "annualKm": "10000",
+          "fuelConsumption": "12"
+        },
+        {
+          "fuelType": "petrol",
+          "annualKm": "5000",
+          "fuelConsumption": "10"
+        }
+      ],
+      "publicTransport": {
+        "monthlyKm": "50"
+      },
+      "flights": {
+        "domesticKm": "",
+        "internationalKm": ""
+      },
+      "waste": {
+        "monthlyLandfill": "40",
+        "monthlyRecycled": "0",
+        "monthlyComposted": "0"
+      },
+      "food": {
+        "weeklyMeat": "1",
+        "weeklyDairy": "4",
+        "weeklyVegetables": "5",
+        "weeklyGrains": "4"
+      },
+      "water": {
+        "monthlyM3": "10"
+      }
+    },
+    "result": {
+      "totalEmissions": 6.98,
+      "breakdown": {
+        "electricity": 0.6,
+        "naturalGas": 1.2179999999999997,
+        "transportation": 3.9804,
+        "waste": 0.24,
+        "food": 0.90064,
+        "water": 0.04128
+      },
+      "unit": "tCO2e"
+    },
+    "timestamp": "2025-11-27T04:29:11.511Z",
+    "dateCreated": "27/11/2025, 9:59:11 am"
+  },
+  {
+    "id": "1a452d9f-504c-4e4c-bc21-5186d739f0d4",
+    "type": "individual",
+    "inputData": {
+      "electricity": {
+        "monthlyKWh": "400"
+      },
+      "naturalGas": {
+        "monthlyCubicMeters": "50"
+      },
+      "vehicles": [
+        {
+          "fuelType": "petrol",
+          "annualKm": "10000",
+          "fuelConsumption": "10"
+        },
+        {
+          "fuelType": "electric",
+          "annualKm": "5000",
+          "fuelConsumption": "20"
+        }
+      ],
+      "publicTransport": {
+        "monthlyKm": "50"
+      },
+      "flights": {
+        "domesticKm": "",
+        "internationalKm": ""
+      },
+      "waste": {
+        "monthlyLandfill": "10",
+        "monthlyRecycled": "0",
+        "monthlyComposted": "0"
+      },
+      "food": {
+        "weeklyMeat": "2",
+        "weeklyDairy": "5",
+        "weeklyVegetables": "5",
+        "weeklyGrains": "4"
+      },
+      "water": {
+        "monthlyM3": "10"
+      }
+    },
+    "result": {
+      "totalEmissions": 7.65,
+      "breakdown": {
+        "electricity": 2.4,
+        "naturalGas": 1.2179999999999997,
+        "transportation": 2.6134,
+        "waste": 0.06,
+        "food": 1.3156,
+        "water": 0.04128
+      },
+      "unit": "tCO2e"
+    },
+    "timestamp": "2025-11-27T05:18:13.564Z",
+    "dateCreated": "27/11/2025, 10:48:13 am"
+  }
+]

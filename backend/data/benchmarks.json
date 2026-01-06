@@ -1,0 +1,22 @@
+{
+  "individual": {
+    "india": {
+      "average": 1.9,
+      "urban": 2.5,
+      "rural": 1.3
+    },
+    "usa": {
+      "average": 16,
+      "urban": 17.5,
+      "rural": 14
+    },
+    "global": {
+      "average": 4.8
+    }
+  },
+  "business": {
+    "smallManufacturing": 50,
+    "smallRetail": 20,
+    "smallOffice": 15
+  }
+}

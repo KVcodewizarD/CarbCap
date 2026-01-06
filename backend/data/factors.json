@@ -1,0 +1,45 @@
+{
+  "electricity": {
+    "grid": 0.5,
+    "renewable": 0.02
+  },
+  "naturalGas": {
+    "heating": 2.03
+  },
+  "transportation": {
+    "petrol": 2.31,
+    "diesel": 2.68,
+    "electric": 0.05,
+    "hybrid": 0.12,
+    "publicTransport": 0.089,
+    "flight": {
+      "domestic": 0.255,
+      "international": 0.195
+    }
+  },
+  "waste": {
+    "landfill": 0.5,
+    "recycled": 0.02,
+    "composted": 0.1
+  },
+  "food": {
+    "meat": 6.61,
+    "dairy": 1.37,
+    "vegetables": 0.43,
+    "grains": 0.77
+  },
+  "water": {
+    "supply": 0.344
+  },
+  "business": {
+    "machinery": {
+      "light": 0.6,
+      "heavy": 0.8
+    },
+    "fleet": {
+      "lightVehicle": 2.5,
+      "heavyVehicle": 3.2
+    },
+    "industrialWaste": 0.7
+  }
+}
